@@ -188,3 +188,44 @@ body {
 .container {
   animation: fadeInBox 1.5s ease, floatContainer 6s ease-in-out infinite;
 }
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .tagline {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .chai-card {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .chai-cup {
+    font-size: 3rem;
+  }
+
+  .signup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .signup input,
+  .signup button {
+    width: 100%;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
